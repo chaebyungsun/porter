@@ -1,0 +1,89 @@
+body {
+  min-width: 1536px;
+}
+section {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 240px;
+}
+article {
+  width: 1536px;
+  margin: 0 auto;
+}
+article > div {
+  float: left;
+}
+article img {
+  margin-bottom: 20px;
+}
+
+.con1 {
+  width: 900px;
+}
+.con1 img {
+  margin-left: 100px;
+}
+.con1 .p2 {
+  width: 700px;
+  margin-left: 100px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.con {
+  width: 700px;
+  height: 700px;
+}
+
+.won {
+  width: 700px;
+  height: 875px;
+}
+.con2 {
+  width: 636px;
+  left: 57%;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.con2 .p2 {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 20px;
+}
+.con2 p {
+  width: 400px;
+  font-size: 18px;
+  padding-top: 20px;
+  float: left;
+}
+@media all and (max-width: 1536px) {
+  .con2 {
+    left: 900px;
+  }
+}
+.box1 {
+  width: 400px;
+  height: 45px;
+  background-color: #ff9148;
+  text-align: center;
+  margin-top: 240px;
+  display: block;
+  line-height: 45px;
+}
+
+.con2 li a {
+  color: #fff;
+}
+
+.box2 {
+  width: 195px;
+  height: 45px;
+  background-color: #333;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  line-height: 45px;
+}
+.box2:first-child {
+  margin-left: 0;
+}

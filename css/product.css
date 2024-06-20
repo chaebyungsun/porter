@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a:any-link {
+  color: #000;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+section {
+  width: 100%;
+  margin-top: 140px;
+  margin: 0 auto;
+}
+
+h4 {
+  font-size: 21px;
+  text-align: center;
+  margin-top: 240px;
+}
+
+#article {
+  width: 1536px;
+  margin: 0 auto;
+}
+#article ul {
+  overflow: hidden;
+}
+#article li {
+  float: left;
+  margin: 0 106px;
+}
+
+#article img {
+  width: 300px;
+  height: 300px;
+  margin-top: 100px;
+}
+#article p {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
